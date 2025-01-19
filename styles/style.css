@@ -1,4 +1,4 @@
-body{
+header,main{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -238,12 +238,16 @@ hr{
              /* footer section */
                /* footer section */
 
-/* .footer-section{
+ .footer-section{
     display: grid;
     background-color: #0A0826;
     max-width: 1440px;
     height: 239px;
     align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+   
 }
 
 .footer-title{
@@ -279,7 +283,7 @@ hr{
     width: 25px;
 }
 
- */
+ 
 
 
 
@@ -385,7 +389,11 @@ hr{
         height: auto;
         margin: 0 auto;
 
+      }
 
+      .footer-section{
+        width: 100%;
+      }
 
      
    
